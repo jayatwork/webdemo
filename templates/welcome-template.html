@@ -3,12 +3,13 @@
 <html>
    <head>
          <meta charset="UTF-8">
-         <link rel="stylesheet" href="/static/stylesheets/welcome-template.css">
+         
 
          <!-- The welcome struct (shown in the main.go code) is received within the HTML and we just need to use the . operator and retrieve the information we want -->
          <title>Welcome {{.Name}}</title>  
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="/static/stylesheets/welcome-template.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    </head>
@@ -40,7 +41,7 @@
   <p>add content</p>
 </div>
 
-       <div class="welcome center">Welcome {{.Name}} to universe of #27</div>
+<div class="welcome center">Welcome {{.Name}} to universe of #27</div>
       
    </body>
 </html>
